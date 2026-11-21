@@ -1,7 +1,7 @@
 
 import numpy as np
 
-from src.predict import predict
+from ml_from_scratch.supervised_learning.regression.linear_regression.components.predict import predict
 
 
 def test_predictions():

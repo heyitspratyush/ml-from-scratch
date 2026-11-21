@@ -1,10 +1,8 @@
 import numpy as np
 import pytest
-from src.gradients import calculate_gradients
-from src.predict import predict as training_predict
-from src.update import update_parameters
+from ml_from_scratch.supervised_learning.regression.linear_regression.models.linear_regression import LinearRegression
 
-from models.linear_regression import LinearRegression
+
 
 def test_model_initialization():
     model = LinearRegression(learning_rate=0.01,n_iterations=1000)

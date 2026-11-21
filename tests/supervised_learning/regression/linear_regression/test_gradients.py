@@ -2,7 +2,7 @@
 import numpy as np
 import pytest
 
-from src.gradients import calculate_gradients
+from ml_from_scratch.supervised_learning.regression.linear_regression.components.gradients import calculate_gradients
 
 
 def test_multiple_features():

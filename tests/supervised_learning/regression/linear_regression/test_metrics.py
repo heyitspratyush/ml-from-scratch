@@ -2,7 +2,7 @@
 import numpy as np
 import pytest
 
-from src.metrics import mean_squared_error
+from ml_from_scratch.supervised_learning.regression.linear_regression.components.metrics import mean_squared_error
 
 
 # TEST 1: Actual and predicted values are identical

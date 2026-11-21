@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "ml-from-scratch"
+version = "0.1.0"
+description = "Machine learning algorithms implemented from scratch"
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["ml_from_scratch*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

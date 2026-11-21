@@ -1,4 +1,4 @@
-from src.update import update_parameters 
+from ml_from_scratch.supervised_learning.regression.linear_regression.components.update import update_parameters
 import numpy as np 
 import pytest
 
